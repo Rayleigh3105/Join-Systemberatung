@@ -1,0 +1,751 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+ul {
+  list-style: disc;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  transition: all 500ms ease-in-out;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
+h1, h2, h4 {
+  font-family: 'PT Sans Narrow', Arial, sans-serif;
+  text-decoration: uppercase;
+  font-weight: 700;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+
+
+.hidme {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.btn {
+  transition: all 300ms ease-in-out;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #ff6600 !important;
+  color: #000000 !important;
+  border: 1px solid #fff !important;
+}
+
+
+/* New Design */
+
+.display-none-static{
+  display: none;
+}
+
+.bottom-buffer {
+  margin-bottom: 20px;
+}
+
+.jumbotron.Service {
+  text-align: center;
+}
+
+.jumbotron-none-responsive-heigth {
+  min-height: 300px;
+}
+
+.personalProfilUberschrift {
+  text-align: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.MainElement {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.SubElemntUl {
+  margin-left: 5%;
+  list-style-type: circle;
+}
+
+.windowTwoUberschrift {
+  margin-left: -15%;
+  margin-top: 2%;
+}
+
+.buttonService {
+  width: 60px;
+  height: 60px;
+  margin-top: 4%;
+  border: 0px;
+  border-radius: 30px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.buttonGoToSoftwareAG {
+  width: 60px;
+  height: 60px;
+  margin-top: 30%;
+  margin-left: -15%;
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: #fff
+}
+
+.buttonGoToWilken{
+  width: 60px;
+  height: 60px;
+  margin-top: 30%;
+  margin-left: -15%;
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: #fff
+}
+.buttonGoToJoin{
+  width: 60px;
+  height: 60px;
+  margin-top: 30%;
+  margin-left: -15%;
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: #fff
+}
+
+.buttonGoToSoftwareErfahrung {
+  width: 60px;
+  height: 60px;
+  margin-top: 20%;
+  margin-left: 20%;
+  border: 0px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.margin-left {
+  margin-left: 15%;
+}
+
+.windowThreeUberschrift {
+  text-align: center;
+  margin-left: -30%;
+}
+
+.GotoImageSoftwareAG {
+  width: 60px;
+  height: 60px;
+}
+
+.GotoImageWilken{
+  width: 60px;
+  height: 60px;
+}
+
+.servicePfeil {
+  width: 60px;
+  height: 60px;
+}
+
+.programmierungUeberschrift {
+  margin-left: 5%;
+}
+
+.serviceProgrammierungPicture {
+  width: 250px;
+  height: 250px;
+  margin-left: 25%;
+}
+
+.problemUeberschrift {
+  text-align: center;
+  margin-left: 5%;
+}
+
+.serviceProblemPicture {
+  width: 250px;
+  height: 250px;
+  margin-left: 30%;
+}
+
+.serviceAdministrationPicture {
+  width: 250px;
+  height: 250px;
+  margin-left: 35%;
+}
+
+.programmierungUeberschriftResponsive {
+  visibility: hidden;
+}
+
+.problemUeberschriftResponsive {
+  visibility: hidden;
+}
+
+.adminUeberschrift {
+  margin-left: 35%;
+}
+
+.adminUeberschriftResponsive {
+  visibility: hidden;
+}
+
+/* Personal Profil New Desgin */
+
+.personalProfilOneText {
+  font-size: 15px;
+  text-align: center;
+}
+
+.personalProfilTwoText {
+  font-size: 15px;
+}
+
+.personalProfilOneSiemensPicture {
+  width: 400px;
+}
+
+.personalProfilOneSETPicture {
+  width: 20px;
+  height: 150px;
+}
+
+/* Parallax effect */
+
+.parallax-window {
+  background: transparent;
+}
+
+.window1 {
+  height: 600px;
+}
+
+.window2 {
+  height: 400px;
+}
+
+.window3 {
+  height: 500px;
+}
+
+.window4 {
+  height: 450px;
+}
+
+
+
+.windowOneUeberschrift {
+  margin-top: -10%;
+  margin-left: 10%;
+}
+
+.top-bufferParallaxWindowOne {
+  font-size: 50px;
+  margin-top: 15%;
+  margin-left: 15%;
+  font-weight: 400;
+}
+
+.top-bufferParallaxWindowTwo {
+  font-size: 30px;
+  margin-top: 15%;
+  margin-left: 15%;
+  font-weight: 400;
+  color: white;
+}
+
+.top-bufferParallaxWindowThree {
+  font-size: 35px;
+  margin-top: 10%;
+  margin-left: 20%;
+  font-weight: 400;
+}
+
+.window-wrapper {
+  height: 400px;
+  background: #fff;
+}
+
+.window-wrapper1{
+  height: 480px;
+}
+
+.window-wrapper2 {
+  height: 500px;
+}
+
+.window-wrapper3 {
+  height: 500px;
+}
+
+.window-wrapper4 {
+  height: 100px;
+}
+
+.margin-top {
+  margin-top: 20%;
+}
+
+.top-buffer100 {
+  margin-top: 12%;
+}
+
+.wrapperTwoSoftwareAGPicture {
+  width: 300px;
+  height: 50px;
+  margin-left: -5%;
+  margin-bottom: 12%;
+}
+
+.wrapperTwoWilkenPicture {
+  width: 300px;
+  height: 100px;
+  margin-left: -15%;
+}
+
+.softwareAgUberschrift {
+  margin-top: 35%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  font-size: 25px;
+}
+.JoinUberschrift{
+  margin-top: 35%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  font-size: 25px;
+}
+
+.wilkenUberschrift {
+  margin-top: 35%;
+  margin-bottom: 10%;
+  margin-left: 8%;
+  font-size: 25px;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+
+/* Parallax effect */
+
+/* Flip Effect */
+
+/* entire container, keeps perspective */
+
+.flip-container {
+  perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  height: 290px;
+}
+
+/* flip speed goes here */
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+
+.back {
+  transform: rotateY(180deg);
+}
+
+/* Flip Effect */
+
+/* Personal Profil New Desgin */
+
+/* New Design */
+
+.top-buffer {
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.top-buffer50 {
+  margin-top: 7%;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 9999;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  background: #f5f5f5;
+  color: #444;
+  cursor: pointer;
+  border: 0;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  opacity: 0;
+}
+
+#back-to-top:hover {
+  background: #e9ebec;
+}
+
+#back-to-top.show {
+  opacity: 1;
+}
+
+/*NAVIGATION*/
+
+.navbar {
+  background-color: #222222 !important;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', Arial, 'sans-serif';
+  font-weight: 700;
+}
+
+.navbar a {
+  color: #fff !important;
+  opacity: 0.7;
+}
+
+.navbar a:hover {
+  opacity: 1;
+  background-color: #111111 !important;
+}
+
+/* Header */
+
+.header {
+  height: 600px;
+  width: 100%;
+  padding: 30px 0 30px;
+  margin-top: 50px;
+  background-image: url(../images/KeyBoard.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.header img {
+  height: 350px;
+  width: 350px;
+  margin: 70px 0 0 250px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.header h1, .header p, .header button {
+  margin-top: 20px;
+}
+
+.header .btn {
+  border-radius: 0;
+  margin: 40px 20px;
+}
+
+/* Footer */
+
+.container-fluid.Footer {
+  background-color: #2E2E2E;
+}
+
+.container-fluid.Footer_I {
+  background-color: #2E2E2E;
+  margin-top: 14.28%;
+}
+
+.col-md-7.col-xs-6.Text_F {
+  margin-left: -90px;
+}
+
+.small_h3_F {
+  color: white;
+  font-size: 25px;
+  margin-left: 30%;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.button.button_F {
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 0.9%;
+  width: 190px;
+  height: 45px;
+}
+
+.button.button_F:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.col-md-10.underline {
+  border-top: 3.5px solid #848484;
+}
+
+.col-md-10.copyright {
+  font-size: 15px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.DI {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/*Footer*/
+
+@media (max-width:600px) {
+  .header {
+    padding: 30px;
+    height: 880px;
+  }
+  .header img {
+    width: 90%;
+    height: 180px;
+    margin: 20px 0 0 20px;
+  }
+  .header .btn {
+    font-size: 15px;
+    margin-left: 43px;
+    width: 160px;
+  }
+  .header h1 {
+    font-size: 20px;
+    margin-left: 8%;
+  }
+  .header p {
+    font-size: 15px;
+    margin-left: 8%;
+  }
+  /* New Design */
+  .programmierungUeberschrift {
+    visibility: hidden;
+  }
+  .programmierungUeberschriftResponsive {
+    visibility: visible;
+    margin-left: 20%;
+  }
+  .problemUeberschrift {
+    visibility: hidden;
+  }
+  .serviceProgrammierungPicture {
+    margin-top: 20px;
+    margin-left: 14%;
+  }
+  .problemUeberschriftResponsive {
+    visibility: visible;
+    text-align: center;
+  }
+  .serviceProblemPicture {
+    margin-top: 20px;
+    margin-left: 14%;
+  }
+  .adminUeberschrift {
+    visibility: hidden;
+  }
+  .adminUeberschriftResponsive {
+    margin-left: 27%;
+    visibility: visible;
+  }
+  .serviceAdministrationPicture {
+    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-left: 14%;
+  }
+  .underline {
+    border-bottom: 2px solid #848484;
+  }
+  /* Personal Profil */
+
+
+  .border-left {
+    border-left: 2px solid #555555;
+  }
+  .windowTwoUberschrift {
+    text-align: center;
+  }
+  .window-wrapper1 {
+    height: 690px;
+  }
+  .window-wrapper2 {
+    height: 1000px;
+  }
+  .window-wrapper3{
+    height: 1300px;
+  }
+  .softwareAgUberschrift {
+    margin-top: 15%;
+    margin-left: 30%;
+  }
+  .JoinUberschrift{
+    margin-top: 25%;
+    margin-left: 15%;
+  }
+  .jumbotron-hight{
+    min-height: 500px;
+  }
+
+
+
+  .wilkenUberschrift {
+    margin-left: 18%;
+    margin-top: 25%;
+  }
+  .wrapperTwoSoftwareAGPicture {
+    margin-left: 10%;
+  }
+  .wrapperTwoWilkenPicture {
+    margin-top: 5%;
+  }
+  .buttonGoToSoftwareAG {
+    margin-left: 40%;
+    margin-top: -10%;
+  }
+
+  .buttonGoToWilken {
+      margin-top: 10%;
+      margin-left: 30%;
+
+  }
+
+  .buttonGoToJoin{
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  .buttonGoToSoftwareErfahrung {
+    margin-top: 5% ;
+    margin-left: 42%;
+  }
+  /* Hide Elements */
+  .display-none-responisve{
+    display: none;
+  }
+
+  .display-none-static{
+    display: inline;
+  }
+  /* Hide Elements */
+  .window2 {
+    height: 300px;
+  }
+  /* Window One */
+  .window1 {
+    height: 450px;
+    text-align: center;
+  }
+  .top-bufferParallaxWindowOne {
+    font-size: 30px;
+  }
+  .windowOneUeberschrift {
+    margin-left: -25%;
+    margin-top: 15%;
+  }
+  /* Personal Profil */
+  /* New Design */
+  .top-buffer {
+    margin-top: 25px;
+    font-size: 18px
+  }
+  /* Footer */
+  .container-fluid.Footer {
+    background-color: #2E2E2E;
+  }
+  .container-fluid.Footer_I {
+    background-color: #2E2E2E;
+  }
+  .small_h3_F {
+    color: white;
+    font-size: 20px;
+    margin-left: 0%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .button.button_F {
+    margin-left: 23%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 190px;
+    height: 45px;
+  }
+  .button.button_F:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  .col-md-10.underline {
+    border-top: 3.5px solid #848484;
+  }
+  .col-md-10.copyright {
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .DI {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+}
